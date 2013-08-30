@@ -3,14 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.yanaga</groupId>
-	<artifactId>continuous-delivery</artifactId>
+	<artifactId>jack-qconsp</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<description>CD</description>
 	<scm>
-		<connection>scm:git:git@github.com:yanaga/continuous-delivery.git</connection>
-		<url>scm:git:git@github.com:yanaga/continuous-delivery.git</url>
-		<developerConnection>scm:git:git@github.com:yanaga/continuous-delivery.git</developerConnection>
+		<connection>scm:git:git@github.com:yanaga/jack-qconsp.git</connection>
+		<url>scm:git:git@github.com:yanaga/jack-qconsp.git</url>
+		<developerConnection>scm:git:git@github.com:yanaga/jack-qconsp.git</developerConnection>
 	</scm>
 	<repositories>
 		<repository>
@@ -122,6 +122,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>qconsp.war</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
